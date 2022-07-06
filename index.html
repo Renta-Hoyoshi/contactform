@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet"  href="style.css">
+<title>タイトル</title>
+</head>
+<body>
+    <div class="form_title">
+        <h2>お問い合わせフォーム</h2>
+    </div>
+
+    <main class="form_container">
+        <form method="post" action="mail_confirm.php">
+            <div class="forms">
+                <p>名前</p>
+                <input type="text" id="text" size="40"  placeholder="例：山田 太郎" name="name">
+            </div>
+        
+            <div class="forms">
+                <p>メールアドレス</p>
+                <input type="text"  id="text" size="40"  placeholder="例：yamada@sample.com" name="mail">
+            </div>
+        
+            <div class="forms">
+                <p>年齢</p>
+                <select id="age" name="age"></select>   
+            </div>
+        
+            <div class="forms">
+                <p>コメント</p>   
+                <textarea id="textareaa" cols="42%" rows="10%" placeholder="ご自由にご記入ください。" name="comments" ></textarea> 
+            </div>
+      
+      
+        
+            <div class="forms">   
+                <input type="submit" id="submit" value="送信する">  
+            </div>
+        </form>
+    </main>
+  
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

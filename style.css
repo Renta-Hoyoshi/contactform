@@ -1,0 +1,50 @@
+body {
+  font-family: "Yu Gothic";
+}
+
+
+.form_title {
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+  border-left:4px solid red;
+  background-color: #f1f1f1;
+}
+
+h2 {
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+.form_container {
+    margin: 0 auto;
+    width: 500px;
+    height: 580px;
+    background-color:#f1f1f1 ;
+    border-radius: 10px;
+}
+
+
+.forms {
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.form_container p {
+  margin: 5px 0px;
+}
+
+#text, #textareaa, #age{
+   border: 1px solid rgb(224, 209, 209);
+   border-radius:5px;
+
+}
+
+#submit {
+    border:1px solid rgb(218, 206, 206);
+    background-color: rgb(156, 156, 158);
+    border-radius: 5px;
+    border-bottom:2px solid rgb(74, 74, 75);
+    color: white;
+}
