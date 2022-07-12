@@ -14,13 +14,13 @@
             <br>よろしければ「送信する」ボタンを押して下さい。
         </p>
         <p>名前
-          <br>
-          <?php echo $_POST['name']; ?> 
+            <br>
+            <?php echo $_POST['name']; ?> 
         </p>
 
         <p>メールアドレス
-          <br>
-          <?php echo $_POST['mail']; ?>
+            <br>
+            <?php echo $_POST['mail']; ?>
         </p>
 
         <p>年齢
